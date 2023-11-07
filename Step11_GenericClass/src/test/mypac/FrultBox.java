@@ -6,7 +6,7 @@ public class FrultBox <T> {
 	
 	
 
-	//고일을 포장하는 메소드
+	//과일을 포장하는 메소드
 	public void pack(T item) {
 		this.item=item;
 

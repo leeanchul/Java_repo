@@ -9,7 +9,7 @@ public class MainClass02 {
 		MainClass02.useString("abcd");
 		useString("abcd1234");
 		
-		//아래의 useWeapon() 메소드를 여기서 호추해보세요
+		//아래의 useWeapon() 메소드를 여기서 호출해보세요
 		useWeapon(new MyWeapon());
 		
 		
