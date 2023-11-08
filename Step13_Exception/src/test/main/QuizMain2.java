@@ -19,10 +19,10 @@ public class QuizMain2 {
 		int m=0;
 		int s=1;
 		try {
-		while(m<3) {
+		while(true) {
 			System.out.println(m+"분"+s+"초");
 			s++;
-			//Thread.sleep(1000);
+			Thread.sleep(1000);
 			if(s==60) {
 				m++;
 				s=0;
