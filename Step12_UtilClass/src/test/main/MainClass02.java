@@ -1,6 +1,7 @@
 package test.main;
 
 import java.util.ArrayList;
+import java.util.function.Consumer;
 
 public class MainClass02 {
 	public static void main(String[] args) {

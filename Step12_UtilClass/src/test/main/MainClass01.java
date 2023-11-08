@@ -16,7 +16,7 @@ public class MainClass01 {
 		names.add("안촐랑");
 		names.add("다짱");
 		names.add("빼빼");
-		
+
 		//0 번방의 아이템을 불러와서 item 이라는 변수에 담아보세요
 		String item=names.get(0);
 		//1 번방의 아이템을 삭제 하려면 ?
