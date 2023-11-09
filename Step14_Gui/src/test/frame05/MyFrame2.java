@@ -12,9 +12,7 @@ import javax.swing.JOptionPane;
 
 public class MyFrame2 extends JFrame implements ActionListener{
 	
-	JButton sendBtn=new JButton("전송");
-	JButton updateBtn=new JButton("수정");
-	JButton deleteBtn=new JButton("삭제");
+	JButton sendBtn,updateBtn,deleteBtn;
 	
 	public MyFrame2() {
 		//프레임의 제목 설정
@@ -27,7 +25,11 @@ public class MyFrame2 extends JFrame implements ActionListener{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		setLayout(new FlowLayout());
-
+		
+		sendBtn=new JButton("전송");
+		sendBtn=new JButton("수정");
+		sendBtn=new JButton("삭제");
+		
 		//버튼 클릭시 this myframe 객체에게 전달
 		sendBtn.addActionListener(this);
 		updateBtn.addActionListener(this);
@@ -55,11 +57,11 @@ public class MyFrame2 extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		Object obj=e.getSource();
 	
-		if(obj == sendBtn) {
+		if(obj == this.sendBtn) {
 			System.out.println("전송 합니다");
-		}else if(obj==updateBtn) {
+		}else if(obj==this.updateBtn) {
 			System.out.println("수정 합니다.");
-		}else if(obj==deleteBtn) {
+		}else if(obj==this.deleteBtn) {
 			System.out.println("삭제 합니다.");
 		}
 	}
