@@ -58,7 +58,7 @@ public class MyFrame extends JFrame{
 		};
 		
 		
-		//버튼을 눌렀을때 실행할 메소드를 가지고 이쓴 객체를 ㅈㄴ달해 준다.
+		//버튼을 눌렀을때 실행할 메소드를 가지고 있는 객체를 전달해 준다.
 		btn1.addActionListener(listener);
 		btn2.addActionListener(listener2);
 		setVisible(true);
