@@ -1,14 +1,14 @@
 package mypac;
 
-public class BookDto {
+public class AcDto {
 	private String bname;
 	private String pub;
 	private int price;
 	
-	public BookDto() {
+	public AcDto() {
 	}
 
-	public BookDto(String bname, String pub, int price) {
+	public AcDto(String bname, String pub, int price) {
 		this.bname = bname;
 		this.pub = pub;
 		this.price = price;
